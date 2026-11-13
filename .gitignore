@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Xcode local settings and build output
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Signing credentials and exported packages
+*.p12
+*.mobileprovision
+*.ipa
+*.xcarchive/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
